@@ -25,7 +25,6 @@ const corsOptions = {
   optionSuccessStatus: 200,
 };
 
-
 app.use(cors(corsOptions)); // Apply CORS middleware before other middleware
 
 // Security Headers (helmet)
@@ -53,7 +52,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/posts", require("./routes/postsRoutes"));
 app.use("/api/users", require("./routes/usersRoutes"));
-
 
 // Error Handler Middleware
 app.use(notFound);

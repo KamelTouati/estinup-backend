@@ -2,10 +2,10 @@
   "name": "blog-backend",
   "version": "1.0.0",
   "description": "backend of a blog application ",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app",
+    "start": "node index.js",
+    "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "touati kamel",
